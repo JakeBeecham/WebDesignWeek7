@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments
+	 Author :				Jake Beecham
+	 Date Created :			04/03/20
+	 Page Description : 	Video Tour Page of FoodMarket Sligo website-->
+	 
+<html lang="en">  <!-- Declare the primary language for each Web page-->
+
+<head>
+	<meta charset="utf-8" /> <!--8-bit character encoding capable of encoding all possible characters-->
+	<meta name="description" content="Video Tour Page of FoodMarket Sligo website">
+	<meta name="keywords" content="Chocolate, Local, Sligo, Video">
+	<meta name="author" content="Jake Beecham">
+	<title>FoodMarket Sligo</title>
+	<link rel="stylesheet" type="text/css" href="Styles/Style.css"/>
+    <link rel="icon" type="image/png" href="Images/favicon-32x32.png" sizes="32x32" />
+</head>
+    
+<body> <!-- Body Tag Start of Body section display on screen  -->
+
+	<header>
+        <!-- Inline styling for image to the logo -->
+        <img style="float:left; height: 100px; width: 100px;" src="Images/logo.png" alt="logo">
+		<h1>FoodMarket Sligo</h1>
+	</header>
+    
+	<main>  <!-- Main wrapper tag that goes around your min content-->
+        <!-- anchor name reference for top of page -->
+        <a name="pagetop"></a>
+        <nav>
+            <ul>  <!-- unordered list -->
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href="menu.html"> Menu </a></li>
+                <li id="active"> <a href="video.html"> Video Tour </a></li>
+                <li> <a href="sounds.html"> Sounds of Food </a></li>
+            </ul>
+        </nav>
+        
+        <section class="video">
+            <h1>Video Section</h1>
+                <video controls loop width="300" height="369">
+                    <source src="Video/food.mp4" type="video/mp4"/>
+                    <source src="Video/food.ogg" type="video/ogg"/>
+                    Your browser does not support HTML 5 Video.
+                </video>
+        </section>
+        
+        <section class="youtubeVideo">
+            <h2 style="text-align: center;">Video from YouTube using iframe and video tag</h2>
+            <h4 style="text-align: center;">Select Share and Use video embed code from youtube.com:</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vx9tsT46OUg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <h2 class="h2heading">Chocolate Deserts</h2>
+        <section class="col_detail">
+            <img style="float: left; padding-right: 1em;" src="Images/dessert1.jpg" alt="Desert" width="100" height="100"/>
+            <p>This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  This is an article about chocolate.  Chocolate deserts like ones that are shown here, are all produced in our local restaurant here in Sligo.  Chocolate is a well liked desert all across the globe.  <a href="https://en.wikipedia.org/wiki/Chocolate" id="externallink">More Details on Chocolate here...</a>
+            </p>
+        </section>
+        
+        <h2 class="h2heading">About Our Food</h2>
+        <section>
+            <p id="ourfood">This is a paragraph explaining the food that we cook here in our restaurant in Sligo.  Our food is highly acclaimed.  Locals and tourists from near and far all enjoy our food.  This is a paragraph explaining the food that we cook here in our restaurant in Sligo.  Our food is highly acclaimed.  Locals and tourists from near and far all enjoy our food.  This is a paragraph explaining the food that we cook here in our restaurant in Sligo.  Our food is highly acclaimed.  Locals and tourists from near and far all enjoy our food.  This is a paragraph explaining the food that we cook here in our restaurant in Sligo.  Our food is highly acclaimed.  Locals and tourists from near and far all enjoy our food.  This is a paragraph explaining the food that we cook here in our restaurant in Sligo.  Our food is highly acclaimed.  Locals and tourists from near and far all enjoy our food.</p>
+        </section>
+    </main>
+    
+    <footer>  <!-- Footer  grouping of content for the bottom of the screen and will need css to place at the bottom  -->
+        <a href="#top"> Go To Top Of Page </a>
+        <ul>  <!-- unordered list -->
+            <li> <a href="index.html"> Home </a></li>
+            <li> <a href="menu.html"> Menu </a></li>
+            <li> <a href="video.html"> Video Tour </a></li>
+            <li> <a href="sounds.html"> Sounds of Food </a></li>
+        </ul>
+        <p>&copy; 2020 Sligo Food</p>
+	</footer>
+    
+</body>
+</html>

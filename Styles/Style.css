@@ -1,0 +1,265 @@
+body
+{
+    background-color: black;
+    font-family: verdana;
+}
+
+header
+{
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: #ffb000;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+
+nav
+{
+    background-color: #918b8b;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: #8E8E8E;
+}
+
+#active
+{
+    background-color: #4fb54f;
+}
+
+#content
+{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid red;
+    border-radius: 30px;
+}
+
+#aboutUs
+{
+    color: white;
+    text-align: left;
+}
+
+#bigPic
+{
+    width: 75%;
+    float: right;
+}
+
+aside
+{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+    color: white;
+    border-radius: 30px;
+}
+
+aside ul li
+{
+    list-style-type: none;
+}
+
+aside ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ol li
+{
+    list-style-type: none;
+}
+
+#manager
+{
+    width: 80%;
+    float: left;
+    font-family: verdana;
+    color: white;
+    border: 1px solid magenta;
+    border-radius: 30px;
+}
+
+.showimages
+{
+    float: right;
+}
+
+#staff
+{
+    width: 80%;
+    float: left;
+    font-family: verdana;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 30px;
+}
+
+footer
+{
+    clear: both;
+    border: 1px solid teal;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: #918b8b;
+    border-radius: 30px;
+    text-align: center;
+}
+
+footer ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer ul li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+footer ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer p
+{
+    text-align: center;
+    font-size: 1em;
+    font-family: verdana;
+    color: white;
+}
+
+.video
+{
+    font-family: verdana;
+    color: white;
+    float: left;
+}
+
+.youtubeVideo
+{
+    font-family: verdana;
+    color: white;
+    float: right;
+}
+
+.h2heading
+{
+    clear: both;
+    font-family: verdana;
+    color: white;
+}
+
+.col_detail
+{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid white;
+    padding: 2px;
+    font-family: verdana;
+    color: white;
+}
+
+#externallink
+{
+    text-decoration: none;
+    text-decoration: underline;
+    color: red;
+}
+
+#ourfood
+{
+    font-family: verdana;
+    color: white;
+}
+
+.col_article
+{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid white;
+    height: 400px;
+}
+
+.backgroundImageA
+{
+    background-image: url(../Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageB
+{
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageC
+{
+    background-image: url(../Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.text
+{
+    font-family: verdana;
+    color: white;
+}
+
+.menuHeading
+{
+    font-family: verdana;
+    color: white;
+    text-align: center;
+    margin-top: 5em;
+}
